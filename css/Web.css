@@ -1,0 +1,373 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+.sosmed{
+    padding: 5px 0;
+    background-color: #3AB4F2;
+}
+
+.sosmed ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Verdana',sans-serif;
+    background: linear-gradient(to right, red, black);
+}
+
+.wrapper .input_field{
+    margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrapper textarea{
+    resize: none;
+    height: 80px;
+}
+
+.wrapper .buton input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: red;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+form h1{
+    font-family: fantasy;
+    font-size: 60px;
+    background: linear-gradient(to bottom, red, black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: right;
+    font-family: 'Ms Madi', cursive;
+    color: #FF008E;
+}
+
+.menu{
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, red, black);
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-part{
+    float: left;
+    width: 55%;
+}
+
+.image-part{
+    float: right;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.image-part img{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.content-part .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-part .konten p{
+    text-align: justify;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier';
+    color: white;
+}
+
+h2{
+    
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    letter-spacing: 20px;
+    line-height: 50px;
+}
+
+a.tombol{
+    background: #0096FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombollogout{
+    background: #0096FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol:hover{
+    background: #5800FF;
+}
+
+a.tombollogout:hover{
+    background: red;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+
+.kiri{
+    text-align: left;
+    width: 100%;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: 85px;
+}
+
+.card-image img{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.profile-image img{
+    z-index: 1;
+    width: 190px;
+    height: 190px;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 4px solid #fff;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.profile-image img:hover{
+    transform: scale(1.1);
+}
+
+.card-content h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.card-content p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+    color: #332902;
+}
+
+.icons{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0ABDE3;
+    padding: 0 14px;
+}
+
+.kanan{
+    text-align: right;
+    width: 100%;
+}
+  
+  .social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 16px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 2.4px;
+    position: relative;
+    font-size: 16px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 19.2px 'Roboto Slab', sans-serif;
+    padding: 12px 32px;
+    letter-spacing: 0.8px;
+    margin: 16px;
+    width: 208px;
+  }
+
+  .bordertombol {
+    box-shadow: inset 0 0 0 4px #58cdd1;
+    color: #58afd1;
+    position: relative;
+  }
+
+  h1 {
+    font-family: fantasy;
+    font-size: 60px;
+    background: linear-gradient(to bottom, red, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 40px 0 20px 0;
+    text-align: center;
+    letter-spacing: 30px;
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="js/Contact.js"></script>
+    <script src="https://kit.fontawesome.com/4a6ae4a292.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Web.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="img/Megumin.mp4" type="video/mp4">
+    Update browser mu dek
+  </video>
+    <nav>
+        <div class="wrapper">
+        <div class="logo"><a href="Home.html">kirigayayat</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="Home.html" target="_self">Home</a></li>
+                <li><a href="Biodata.html" target="_self">Biodata</a></li>
+                <li><a href="Contact.html" target="_self">Contact</a></li>
+                <li><a href="Dashboard.html" target="_self">Dashboard</a></li>
+                <li><a href="Login.html" class="tombollogout">Logout</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+      <h1>Contact Us</h1>
+      <div id="error_message"></div>
+      <form id="myform" name="form">
+        <div class="input_field">
+          <input type="text" placeholder="Masukkan nama..." id="name" name="nama" autocomplete="off" required>
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Masukkan email..." id="email" name="email" autocomplete="off" required>
+        </div>
+        <div class="input_field">
+          <textarea placeholder="Masukkan pesan..." id="message" name="pesan" required></textarea>
+        </div>
+        <div class="buton">
+          <input type="submit" onclick="validasi()" value="Kirim Pesan">
+        </div>
+      </form>
+    </div>
+</body>
+</html>
